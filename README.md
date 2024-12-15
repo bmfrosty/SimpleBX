@@ -8,5 +8,5 @@ I don't really want to reinvent the wheel.  So the first and biggest references 
 * [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
 * [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
 * [Magic-User](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
-* [Thief]()
+* [Thief](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
 * 
