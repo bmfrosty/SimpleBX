@@ -25,7 +25,7 @@ I don't really want to reinvent the wheel.  So the first and biggest references 
 ### [Thief](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
  
 
-* [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
+### (Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
 | Dolmenwood Version | SimpleBX Version |
 | - | - |
 | Doom | Death |
