@@ -18,7 +18,7 @@ Roll 3d6 DTL.  The line is whatever the DM says it is.  Usually Str, Dex, Con, I
 
 Calculate the [Ability Modifiers](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1) and add up the modifiers.  If they're +1 or better combined, you passed teh first test for a valid character.  Then each class has requirements of a +1 or better in it's prime requisites.  A party should normally be constitued (from most common to least common) of Fighters, Dwarves, Clerics, Halflings, Magic Users, and Elves. 
 
-# [Classes]
+# Classes
 
 You only get 6.  The Halfling and Thief got rolled together.  Everyone gets some Thief Skills.
 
@@ -60,7 +60,7 @@ At character creation, an elf get a single level 1 spell.  Roll twice on the on 
 | 14| 1,400,000| +1| +4| 10| 10| 9| 12| 10|
 | 15| 1,600,000| +1| +4| 10| 10| 9| 12| 10|
 
-### [Dwarf]()
+## [Dwarf]()
 * A Dwarf is mostly just a fighter that costs more XP.
 * Dwarves can use all types of armor, but it must be sized appropriately.
 * Dwarves can't use bows or crossbows.  They just refuse.
@@ -69,6 +69,8 @@ At character creation, an elf get a single level 1 spell.  Roll twice on the on 
 
 
 # [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
+
+Saves:
 | Dolmenwood Version | B/X or SimpleBX Version |
 | - | - |
 | Doom | Death |
@@ -77,9 +79,9 @@ At character creation, an elf get a single level 1 spell.  Roll twice on the on 
 | Blast | Breath Attacks |
 | Spells | Spells / rods / staves |
 
-# [Arcane Magic]()
+## [Arcane Magic]()
 
-## Level 1 spells:
+### Level 1 spells:
 
 1. Charm Person
 2. Floating Disc
@@ -94,10 +96,26 @@ At character creation, an elf get a single level 1 spell.  Roll twice on the on 
 
 See the Link in the header for a list of all spells.  We drop two in SimpleBX because Magic Users and Elves get them as skills.
 
-## [Arcane Skills]
+### [Arcane Skills]
 
-### [Detect Magic](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician#magician_skills):
-This is a skill instead of a spell in SimpleBX.
+#### [Detect Magic](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician#magician_skills):
 
-### [Read Magic]()
-Again a skill instead of a spell.  Roll an ability check to try and read something Magic
+This is a skill instead of a spell in SimpleBX.  See the Magic-User link.
+
+#### Read Magic
+
+Again a skill instead of a spell.  Use your Detect Magic Skill, Modified by your Int modifier.
+
+#### Learning Spells
+
+Learning a new spell is done in one of two ways. Transcription or Research.
+
+### Transcription
+
+You must posess a Scroll or Spellbook of the spell in question.
+
+Roll an Int ability check.  If you succeed, you've transcribed the spell to your spellbook.  If you fail and it's from a scroll, the scroll crumbles and is now gone.  If it's a spellbook, you get to try again when you go up a level.  You can try again at the same level with a different source spellbook or scroll.
+
+### Research
+
+This takes 7 adventuring days and 1,000 gold per level of the spell.  You may not adventure while in the process of doing this.
