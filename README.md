@@ -37,8 +37,8 @@ I don't really want to reinvent the wheel.  So the first and biggest references 
 
 
 
-| Level | XP | Hit Points | Death | Wands | Paralysis | Breath | Spells |
-| - | - | - | - | - | - | - | - |
+| Level | XP | Hit Points | Attack Bonus | Death | Wands | Paralysis | Breath | Spells |
+| - | - | - | - | - | - | - | - | - |
 | 1| 0| 1d4| +0| 14| 14| 13| 16| 14|
 | 2| 4,000| +1d4| +0| 14| 14| 13| 16| 14|
 | 3| 8,000| +1d4| +0| 14| 14| 13| 16| 14|
