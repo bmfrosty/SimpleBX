@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d6 DLT Ability Score Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">3d6 DTL Ability Score Generator</h1>
+    <button id="generateButton" onclick="generateAbilityScores()">Generate Ability Scores</button>
+
+    <div id="result"></div>
+
+    <script>
+        // UUID generator (simple random string)
+        function generateUUID() {
+            return 'xxxxxxxxyxxx4xxxxyxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random() * 16 | 0;
+                var v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        // Function to roll 3d6
+        function roll3d6() {
+            return Math.floor(Math.random() * 6) + 1 + Math.floor(Math.random() * 6) + 1 + Math.floor(Math.random() * 6) + 1;
+        }
+
+        // Function to determine Labyrinth Lord modifiers based on score
+        function getModifier(score) {
+            if (score <= 3) return -3;
+            if (score <= 5) return -2;
+            if (score <= 8) return -1;
+            if (score <= 12) return 0;
+            if (score <= 15) return 1;
+            if (score <= 17) return 2;
+            return 3;
+        }
+
+        // Default ability names
+        const abilities = ["STR", "DEX", "CON", "INT", "WIS", "CHA"];
+
+        function generateAbilityScores() {
+            const uuid = generateUUID();
+            let total = 0;
+            let abltotal = 0;
+            let results = [];
+
+            // Roll for each ability and calculate modifiers
+            for (let i = 0; i < abilities.length; i++) {
+                let roll = roll3d6();
+                let modifier = getModifier(roll);
+                let abilityScore = roll + modifier;
+                total += modifier;
+                abltotal += roll;
+
+                results.push({
+                    ability: abilities[i],
+                    roll: roll,
+                    modifier: modifier,
+                    total: abilityScore
+                });
+            }
+
+            // Check if the sum is greater than 0, if not, try again
+            if (total <= 0) {
+                generateAbilityScores();
+            } else {
+                // Display results if total is greater than 0
+                displayResults(results, abltotal, total);
+            }
+        }
+
+        function displayResults(results, abltotal, total) {
+            let resultHtml = "<table><tr><th>Ability</th><th>Roll</th><th>Modifier</th><th>Total</th></tr>";
+            for (let result of results) {
+                resultHtml += `<tr><td>${result.ability}</td><td>${result.roll}</td><td>${result.modifier}</td><td>${result.total}</td></tr>`;
+            }
+            resultHtml += "</table>";
+
+            resultHtml += `<h3 style='text-align: center;'>Total Modifiers Combined: ${total}</h3>`;
+            document.getElementById('result').innerHTML = resultHtml;
+        }
+
+        window.onload = function() {
+            document.getElementById('generateButton').click();
+        };
+    </script>
+
+</body>
+</html>
