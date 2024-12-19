@@ -16,7 +16,8 @@ Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll
 # [Character Creation]()
 Roll 3d6 DTL.  The line is whatever the DM says it is.  Usually Str, Dex, Con, Int, Wis, and Cha.
 
-Calculate the [Ability Modifiers](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1) and add up the modifiers.  If they're +1 or better combined, you passed teh first test for a valid character.  Then each class has requirements of a +1 or better in it's prime requisites.  A party should normally be constitued (from most common to least common) of Fighters, Dwarves, Clerics, Halflings, Magic Users, and Elves. 
+* Calculate the [Ability Modifiers](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1) and add up the modifiers.  [Here's a Tool](https://bmfrosty.github.io/SimpleBX/).  If they're +1 or better combined, you passed the first test for a valid character.  
+* Then each class has requirements of a +1 or better in it's prime requisites.  A party should normally be constitued (from most common to least common) of Fighters, Dwarves, Clerics, Halflings, Magic Users, and Elves. 
 
 # Classes
 You only get 6.  The Halfling and Thief got rolled together.  Everyone gets some Thief Skills.
@@ -90,7 +91,7 @@ Saves:
 
 ## [Arcane Magic]()
 
-### Level 1 spells:
+### [Level 1 spells:](https://oldschoolessentials.necroticgnome.com/srd/index.php/Magic-User_Spells)
 
 1. Charm Person
 2. Floating Disc
@@ -128,3 +129,5 @@ Roll an Int ability check.  If you succeed, you've transcribed the spell to your
 ### Research
 
 This takes 7 adventuring days and 1,000 gold per level of the spell.  You may not adventure while in the process of doing this.
+
+## [Holy Magic]()
