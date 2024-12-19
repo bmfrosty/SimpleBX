@@ -50,6 +50,8 @@ while [ $total -lt $min ]; do
   rm $uuid
   generate
 done
+echo "~" >> $uuid
 echo "TOT: $abltotal SUM: $total" >> $uuid
 cat $uuid | column -t
 rm $uuid
+
