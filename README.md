@@ -5,46 +5,55 @@ Simple BX is a less of a complete RPG system, but more of a list of references t
 
 Damage on a successful weapon attack is no longer depedent on the weapon, but on the class instead.  It's the same as the Hit Die used for hit points.  It still has to be an appropriate weapon.  For instance, a Wizard can't use a 2-Handed sword.
 
-I don't really want to reinvent the wheel.  So the first and biggest references that I'll use are from Gavin Norman's systems and SRDs.  I'll include a bunch of links:
+I don't really want to reinvent the wheel.  So the first and biggest references that I'll use are from Gavin Norman's systems and SRDs.  I'll include a bunch of links.
+
+Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll call them Referees.
 
 # First rules
-
-* The Referee/Judge/GM/DM is always right, and if he, she, or they say that character creation works differently, then in their game character creation works differently.  Same with everything else.
+* The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.  Same with everything else.
 * Something else
 
 # [Character Creation]()
-
 Roll 3d6 DTL.  The line is whatever the DM says it is.  Usually Str, Dex, Con, Int, Wis, and Cha.
 
 Calculate the [Ability Modifiers](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1) and add up the modifiers.  If they're +1 or better combined, you passed teh first test for a valid character.  Then each class has requirements of a +1 or better in it's prime requisites.  A party should normally be constitued (from most common to least common) of Fighters, Dwarves, Clerics, Halflings, Magic Users, and Elves. 
 
 # Classes
-
 You only get 6.  The Halfling and Thief got rolled together.  Everyone gets some Thief Skills.
 
 ## [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
+Prime Requisite: Wisdom
+Hit Die: d6
+Armor: Any Armor or Shield that doesn't use Arcane Magic.  Most magic armor uses Arcane Magic.  Ask your Referee.
+Weapons: Any Weapon that doesn't use Arcane Magic.  Most magic weapons use Arcane Magic.  Ask your Referee.
 
-Prime Requisites: 
+Clerics use Holy Magic.
+
 ## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
 * Fighters can use suitable weapons 2 handed.
     * This prevents the use of a shield, but adds +1 damage to the d
 
-## [Magic-User](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
-
-At character creation, a Magic-User gets up to 2 1st level spells.  Roll twice on the on the level 1 table using a d10.  If you get the same thing twice, talk to your GM.
-
 ## [Halfling](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
  * Halfling replaces the Thief
  * Use Optional skill rules
- * Halfling gets
+ * Halflings get 4 Thief skill points at level 1 and 2 points every level after.
+    
+## [Magic-User/Wizard](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
+Prime Requisite: Intelligence
+Hit Die: d6
+Armor: Any Armor that doesn't use Arcane Magic.  Most magic armor uses Arcane Magic.  Ask your Referee.
+Weapons: Any Weapon that doesn't use Arcane Magic.  Most magic weapons use Arcane Magic.  Ask your Referee.
+
+Magic Users use Arcane Magic.
+
 
 ## [Elf]()
 
 At character creation, an elf get a single level 1 spell.  Roll twice on the on the level 1 table using a d10.
 
 | Level | XP | Hit Points | Attack Bonus | Death | Wands | Paralysis | Breath | Spells |
-| - | - | - | - | - | - | - | - | - |
-| 1| 0| 1d4| +0| 14| 14| 13| 16| 14|
+| -     | -  | -          | -            | -     | -     | -         | -      | -      |
+| 1 | 0| 1d6| +0| 14| 14| 13| 16| 14|
 | 2| 4,000| +1d4| +0| 14| 14| 13| 16| 14|
 | 3| 8,000| +1d4| +0| 14| 14| 13| 16| 14|
 | 4| 16,000| +1d4| +1| 13| 13| 12| 15| 13|
