@@ -75,6 +75,8 @@
             const uuid = generateUUID();
             let total = 0;
             let results = [];
+            let constitution;
+            let hasHighPrimaryStat = false;
 
             // Roll for each ability and calculate modifiers
             for (let i = 0; i < abilities.length; i++) {
@@ -89,13 +91,23 @@
                     modifier: modifier,
                     total: abilityScore
                 });
+
+                // Capture CON score for validation
+                if (abilities[i] === "CON") {
+                    constitution = roll;
+                }
+
+                // Check if STR, DEX, INT, or WIS is above 12
+                if (["STR", "DEX", "INT", "WIS"].includes(abilities[i]) && roll > 12) {
+                    hasHighPrimaryStat = true;
+                }
             }
 
-            // Check if the sum is greater than 0, if not, try again
-            if (total <= 0) {
+            // Retry if CON is less than 9, total modifiers are non-positive, or no primary stat is above 12
+            if (constitution < 9 || total <= 0 || !hasHighPrimaryStat) {
                 generateAbilityScores();
             } else {
-                // Display results if total is greater than 0
+                // Display results if valid
                 displayResults(results, total);
             }
         }
@@ -118,3 +130,4 @@
 
 </body>
 </html>
+

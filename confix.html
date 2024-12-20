@@ -75,6 +75,7 @@
             const uuid = generateUUID();
             let total = 0;
             let results = [];
+            let constitution;
 
             // Roll for each ability and calculate modifiers
             for (let i = 0; i < abilities.length; i++) {
@@ -89,13 +90,18 @@
                     modifier: modifier,
                     total: abilityScore
                 });
+
+                // Capture CON score for validation
+                if (abilities[i] === "CON") {
+                    constitution = roll;
+                }
             }
 
-            // Check if the sum is greater than 0, if not, try again
-            if (total <= 0) {
+            // Retry if CON is less than 9 or total modifiers are non-positive
+            if (constitution < 9 || total <= 0) {
                 generateAbilityScores();
             } else {
-                // Display results if total is greater than 0
+                // Display results if valid
                 displayResults(results, total);
             }
         }
@@ -118,3 +124,4 @@
 
 </body>
 </html>
+
