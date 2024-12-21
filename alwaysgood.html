@@ -81,9 +81,6 @@
             // Roll for each ability and calculate modifiers
             for (let i = 0; i < abilities.length; i++) {
                 let roll = roll3d6();
-                let modifier = getModifier(roll);
-                let abilityScore = roll;
-                total += modifier;
 
                 // Capture CON score for validation and keep it at 9 or higher
                 if ( abilities[i] === "CON" && roll <= 9 ) {
@@ -92,6 +89,10 @@
                 if ( abilities[i] === "CON" ) {
                   constitution = roll;
                 }
+
+                let modifier = getModifier(roll);
+                let abilityScore = roll;
+                total += modifier;
 
                 results.push({
                     ability: abilities[i],
@@ -107,7 +108,8 @@
             }
 
             // Retry if CON is less than 9, total modifiers are non-positive, or no primary stat is above 12
-            if (constitution < 9 || total <= 0 || !hasHighPrimaryStat) {
+            // if (constitution < 9 || total <= 0 || !hasHighPrimaryStat) {
+            if (constitution < 9 || !hasHighPrimaryStat) {
                 generateAbilityScores();
             } else {
                 // Display results if valid
@@ -132,9 +134,9 @@
     </script>
     <ul>
         <li><a href="https://github.com/bmfrosty/SimpleBX">SimpleBX - My pet project BX Clone</li>
-        <li><a href="index.html">Random Ability Score Generator.</a></li>
-        <li><a href="confix.html">Constitution is never less than 9.</a></li>
-        <li><a href="alwaysgood.html">Constitution is never less than 9, and at least one of STR, DEX, INT, or WIS is 13 or greater. (this generator)</a></li>
+        <li><a href="index.html">Random Ability Score Generator where combined ability score modifier is never less than 1. </a></li>
+        <li><a href="confix.html">Random Ability Score Generator where constitution is never less than 9.</a></li>
+        <li><a href="alwaysgood.html">Random Ability Score Generator where constitution is never less than 9, and at least one of STR, DEX, INT, or WIS is 13 or greater. (this generator)</a></li>
     </ul>
 </body>
 </html>
