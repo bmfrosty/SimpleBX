@@ -1,3 +1,4 @@
+# This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work.
 # SimpleBX
 Simple BX compatible RPG System
 
