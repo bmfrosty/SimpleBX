@@ -85,17 +85,20 @@
                 let abilityScore = roll;
                 total += modifier;
 
+                // Capture CON score for validation and keep it at 9 or higher
+                if ( abilities[i] === "CON" && roll <= 9 ) {
+                  roll = 9
+                }
+                if ( abilities[i] === "CON" ) {
+                  constitution = roll;
+                }
+
                 results.push({
                     ability: abilities[i],
                     roll: roll,
                     modifier: modifier,
                     total: abilityScore
                 });
-
-                // Capture CON score for validation
-                if (abilities[i] === "CON") {
-                    constitution = roll;
-                }
 
                 // Check if STR, DEX, INT, or WIS is above 12
                 if (["STR", "DEX", "INT", "WIS"].includes(abilities[i]) && roll > 12) {
