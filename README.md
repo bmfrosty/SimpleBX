@@ -1,4 +1,4 @@
-# This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work.
+# This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
 # SimpleBX
 Simple BX compatible RPG System
 
