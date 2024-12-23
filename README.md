@@ -77,11 +77,17 @@ Weapons: Any not-large weapons
 * Hit Die: d4
 * Armor: Any non-metal Armor
 * Weapons: Any Weapon
+
 At character creation, Elves get a single level 1 spell.  Roll once on the on the level 1 table using a d10.
 
 Elves use Arcanne Magic.
 
 ## [Dwarf]()
+* Prime Requisite: Strength and Constitution
+* Hit Die: d6
+* Armor: Any Armor or Shield sized appropriately
+* Weapons: Any Weapon except Bows and Crossbows
+
 * A Dwarf is mostly just a fighter that costs more XP.
 * Dwarves can use all types of armor, but it must be sized appropriately.
 * Dwarves can't use bows or crossbows.  They just refuse.
@@ -125,6 +131,30 @@ Saves:
 | Hold | Paralysis/Petrify |
 | Blast | Breath Attacks |
 | Spells | Spells / rods / staves |
+
+## [Inventory]
+
+Use a slot based inventory
+
+[There's an interesting one that Gavin Norman](https://cdn.shopify.com/s/files/1/0017/2330/1933/files/Item-Based_Encumbrance_-_Play_Test_v0-2.pdf) put in Carcass Crawler eventually.  I think I like this one the best of what I've seen.
+[Here's a character sheet for it](https://necroticgnome.com/products/old-school-essentials-purist-character-sheet)
+
+## Combat
+
+[OSE Combat](https://oldschoolessentials.necroticgnome.com/srd/index.php/Combat)
+[Labyrinth Lord Version on Page 52](https://www.drivethrurpg.com/en/product/64331/labyrinth-lord-revised-edition-no-art-version)
+
+Bunch of ways to do combat rounds.  
+
+### [Surprise]()
+
+This is mostly play it by ear.  If the players get it, they get a free round where don't get a turn and visa versa.
+
+### [Initiative]()
+
+At the start of each round, have a player roll a D6.  4-6 and the players go first.  1-3 and the monsters go first.
+
+### [Player Combat]()
 
 # [Magic]
 
