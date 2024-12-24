@@ -14,12 +14,14 @@ Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll
 * The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.  Same with everything else.
 * Something else
 
-# [Character Creation]()
+# [Creating a Character]()
 * Use a Tool to roll [Ability Scores](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1).  
 * I've created 3 tools for this.  The Referee should pick one of the following and ask players to pick the first scores they get.
     * [Here's a Tool that generates scores where the combined ability score modifier is never less than 1.](https://bmfrosty.github.io/SimpleBX/index.html).
     * [Here's a Tool that generates scores where where constitution is never less than 9.](https://bmfrosty.github.io/SimpleBX/confix.html)
     * [Here's a Tool that generates scores where where constitution is never less than 9, and at least one priority stat is 13 or greater.](https://bmfrosty.github.io/SimpleBX/alwaysgood.html)
+
+# [Ability Scores](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores)
 
 # Starting Level
 
@@ -37,6 +39,31 @@ Armor: Any Armor or Shield that isn't infused with Arcane Magic.  Most magic arm
 Weapons: Any Weapon that isn't infused with Arcane Magic.  Most magic weapons isn't infused with Arcane Magic.  Ask your Referee.
 
 Clerics use Holy Magic.
+* Clerics get 2 thief skill points at level 1 and then 1 point every level after.
+
+## [Dwarf]()
+* Prime Requisite: Strength and Constitution
+* Hit Die: d6
+* Armor: Any Armor or Shield sized appropriately
+* Weapons: Any Weapon except Bows and Crossbows
+
+* A Dwarf is mostly just a fighter that costs more XP.
+* Dwarves can use all types of armor, but it must be sized appropriately.
+* Dwarves can't use bows or crossbows.  They just refuse.
+* Dwarves get a +1 to rolls to detect room traps.
+* Dwarves have Infravision.
+* Dwarves get 2 thief skill points at level 1 and then 1 point every level after.
+
+## [Elf]()
+* Prime Requisite: Intelligence and Strength
+* Hit Die: d6
+* Armor: Any non-metal Armor
+* Weapons: Any Weapon
+
+At character creation, Elves get a single level 1 spell.  Roll once on the on the level 1 table using a d10.
+* Elves get 2 thief skill points at level 1 and then 1 point every level after.
+
+Elves use Arcanne Magic.
 
 ## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
 Prime Requisite: Strength
@@ -49,15 +76,20 @@ Weapons: Any Weapons
 
 ## [Halfling](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
 Prime Requisite: Dexterity
-Hit Die: d4
-Armor: Light Armor - no Shields
+Hit Die: d6
+Armor: Light Armor and Shields
 Weapons: Any not-large weapons
 
  * Halfling replaces the Thief
  * Use Optional skill rules
+ * Halflings don't get back-stab.
  * Halflings get 4 Thief skill points at level 1 and 2 points every level after.
-    
-## [Magic-User/Wizard](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
+ * Other [Halfling things](https://oldschoolessentials.necroticgnome.com/srd/index.php/Halfling) that the halfling gets that aren't part of the thief.
+    * Defensive Bonus (+2 AC against larger opponents - that means humans, elves, and many monsters)
+    * Hiding in Woods and Undergrowth (Target of 2)
+    * Missle Attack Bonus (+1 to missle attacks)
+
+## [Magic-User](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
 * Prime Requisite: Intelligence
 * Hit Die: d4
 * Armor: No Armor
@@ -72,27 +104,9 @@ Weapons: Any not-large weapons
     * Roll twice on the on the level 1 table using a d10.
     * If you get the same spell twice, ask your Referee
 
-## [Elf]()
-* Prime Requisite: Intelligence and Strength
-* Hit Die: d4
-* Armor: Any non-metal Armor
-* Weapons: Any Weapon
+# [Thief Skills](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief#thief_skills)
 
-At character creation, Elves get a single level 1 spell.  Roll once on the on the level 1 table using a d10.
-
-Elves use Arcanne Magic.
-
-## [Dwarf]()
-* Prime Requisite: Strength and Constitution
-* Hit Die: d6
-* Armor: Any Armor or Shield sized appropriately
-* Weapons: Any Weapon except Bows and Crossbows
-
-* A Dwarf is mostly just a fighter that costs more XP.
-* Dwarves can use all types of armor, but it must be sized appropriately.
-* Dwarves can't use bows or crossbows.  They just refuse.
-* Dwarves get a +1 to rolls to detect room traps.
-* Dwarves have Infravision.
+This lists 6 of the thief skills, then there are listen and search [here](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules#when_to_roll_a_skill_check).
 
 # [Equipment](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=adventuring_gear)
 
@@ -103,17 +117,17 @@ Elves use Arcanne Magic.
 
 ## [Armor](https://oldschoolessentials.necroticgnome.com/srd/index.php/Weapons_And_Armour)
 
-| Type       | Cost (gp) | AC | Bulk   | Material |
+| Type       | Cost (gp) | AC | Bulk   | Metal |
 |------------|------|----|--------|----------|
-| Leather    | 10   | 12 | Light  | Leather  |
-| Chain Mail | 100  | 14 | Medium | Metal    |
-| Plate Mail | 1000 | 16 | Heavy  | Metal    |
-| Shield     | 10   | +1 | N/A    | Leather  |
-| Helmet     | 10   | +0 | N/A    | Leather  |
+| Leather    | 10   | 12 | Light  | No  |
+| Chain Mail | 100  | 14 | Medium | Yes    |
+| Plate Mail | 1000 | 16 | Heavy  | Yes    |
+| Shield     | 10   | +1 | N/A    | Optionally  |
+| Helmet     | 10   | +0 | N/A    | Optionally  |
 
 Base AC is 10.  If you have no armor, your AC will probably be 10.
 
-I include these here.  These are what are available in towns or cities.  You can totally add more types.  You might add Mythril for Elves to allow them heavier Armor, but make them quest for it or make it super expensive.  
+I include these here.  These are what are available in towns or cities.  You can totally add more types.  You might add Mythril for Elves to allow them heavier Armor, but make them quest for it or make it super expensive.
 
 ## Weapons
 
@@ -138,6 +152,8 @@ Use a slot based inventory
 
 [There's an interesting one that Gavin Norman](https://cdn.shopify.com/s/files/1/0017/2330/1933/files/Item-Based_Encumbrance_-_Play_Test_v0-2.pdf) put in Carcass Crawler eventually.  I think I like this one the best of what I've seen.
 [Here's a character sheet for it](https://necroticgnome.com/products/old-school-essentials-purist-character-sheet)
+
+[Dolmenwood has an updated version](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=encumbrance) - but it's not in the online reference yet.
 
 ## Combat
 
@@ -203,7 +219,7 @@ This takes 7 adventuring days and 1,000 gold per level of the spell.  You may no
 
 # Referee Section
 
-This is a system made out of house rules.  I wholeheartedly recommend you house rule everything anyway.  I feel like it isn't actually simple and SimpleBX is a bit of a misnomer.
+This is a system made out of house rules.  I wholeheartedly recommend you house rule everything anyway.  
 
 ## Death and Dying
 Death and Dying are detrimental to getting some characters high enough level for a higher level campaign.  These are some rules to try and blunt that a bit.
@@ -229,11 +245,13 @@ I've added them to the equipment list.  Consider them easy to ruin.  They can be
     * Only redeeming quality is that they don't have to be carried.
     * Moves at half speed.
 
-## Author Notes
+## Ben's Notes
 
-This document was created, because I'm always dissatisfied with the chunkiness of to-hit modifiers in B/X and it's clones.  I also think that Fighters should also start better at hitting things than other classes.  
+This document was created, because I'm always dissatisfied with the chunkiness in progression of to-hit modifiers in B/X and it's clones.  I also think that Fighters should also start better at hitting things than other classes.  
 
-Sometimes I wonder if Ability Scores should be used at all.  There's an element of a 1st level Cleric should be a 1st level Cleric and that maybe it would be better to allow the equipment to help differentiate different instances of a Cleric.
+I feel like it isn't actually simple and SimpleBX is a bit of a misnomer.  It's mostly just guessing at which direction Gavin Norman might go if he decided to revise OSE to include the changes he made in Dolmenwood.  Other than that I'm just doing a couple of things that are personal preference.
+
+Sometimes I wonder if Ability Scores should be used at all.  There's an element that any 1st level Cleric (or whatever class you wish to use as an example) should be a 1st level Cleric should be a 1st level Cleric and that maybe it would be better to allow the equipment to help differentiate different instances of a Cleric.
 
 I gave everyone Thief skills in reduced count because I felt that most Thief skills (discounting back-stab which is really just a situational fighting thing) are non-combat.  It allows some character customization without the full DPS metagame that's become so central to the game since 2nd edition players options.
 
