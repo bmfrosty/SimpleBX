@@ -33,12 +33,35 @@
         button:hover {
             background-color: #45a049;
         }
+        #config {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input[type="number"] {
+            width: 50px;
+            padding: 5px;
+            margin-left: 10px;
+        }
     </style>
 </head>
 <body>
 
-    <h1 style="text-align: center;">3d6 DTL Ability Score Generator</h1>
-    <button id="generateButton" onclick="generateAbilityScores()">Generate Ability Scores</button>
+    <h1 style="text-align: center;">3d6 DLT Ability Score Generator</h1>
+    <div id="config">
+        <label for="strMin">Minimum STR:</label>
+        <input type="number" id="strMin" value="3" min="3" max="18">
+        <label for="dexMin">Minimum DEX:</label>
+        <input type="number" id="dexMin" value="3" min="3" max="18">
+        <label for="conMin">Minimum CON:</label>
+        <input type="number" id="conMin" value="3" min="3" max="18">
+        <label for="intMin">Minimum INT:</label>
+        <input type="number" id="intMin" value="3" min="3" max="18">
+        <label for="wisMin">Minimum WIS:</label>
+        <input type="number" id="wisMin" value="3" min="3" max="18">
+        <label for="chaMin">Minimum CHA:</label>
+        <input type="number" id="chaMin" value="3" min="3" max="18">
+        <button id="generateButton" onclick="generateAbilityScores()">Generate Ability Scores</button>
+    </div>
 
     <div id="result"></div>
 
@@ -70,34 +93,54 @@
 
         // Default ability names
         const abilities = ["STR", "DEX", "CON", "INT", "WIS", "CHA"];
+        // Initialize a counter to track rerolls
+        let rerollCount = 0;
 
         function generateAbilityScores() {
+            rerollCount++; // Increment the counter on every call
+
             const uuid = generateUUID();
             let total = 0;
             let results = [];
+            let isValidArray = true;
+
+            const strMin = parseInt(document.getElementById('strMin').value) || 3;
+            const dexMin = parseInt(document.getElementById('dexMin').value) || 3;
+            const conMin = parseInt(document.getElementById('conMin').value) || 3;
+            const intMin = parseInt(document.getElementById('intMin').value) || 3;
+            const wisMin = parseInt(document.getElementById('wisMin').value) || 3;
+            const chaMin = parseInt(document.getElementById('chaMin').value) || 3;
 
             // Roll for each ability and calculate modifiers
             for (let i = 0; i < abilities.length; i++) {
                 let roll = roll3d6();
                 let modifier = getModifier(roll);
-                let abilityScore = roll;
                 total += modifier;
 
+                // Push the roll details into results array
                 results.push({
                     ability: abilities[i],
                     roll: roll,
-                    modifier: modifier,
-                    total: abilityScore
+                    modifier: modifier
                 });
+
+                // Check if the roll meets the minimum requirements
+                if (abilities[i] === "STR" && roll < strMin) isValidArray = false;
+                if (abilities[i] === "DEX" && roll < dexMin) isValidArray = false;
+                if (abilities[i] === "CON" && roll < conMin) isValidArray = false;
+                if (abilities[i] === "INT" && roll < intMin) isValidArray = false;
+                if (abilities[i] === "WIS" && roll < wisMin) isValidArray = false;
+                if (abilities[i] === "CHA" && roll < chaMin) isValidArray = false;
             }
 
-            // Check if the sum is greater than 0, if not, try again
-            if (total <= 0) {
+            // If any roll fails to meet the minimums, reroll
+            if (!isValidArray) {
                 generateAbilityScores();
-            } else {
-                // Display results if total is greater than 0
-                displayResults(results, total);
+                return;
             }
+
+            // Display results if all rolls are valid
+            displayResults(results, total);
         }
 
         function displayResults(results, total) {
@@ -108,18 +151,16 @@
             resultHtml += "</table>";
 
             resultHtml += `<h3 style='text-align: center;'>Total Modifiers Combined: ${total}</h3>`;
+            resultHtml += `<p style='text-align: center;'>It took <strong>${rerollCount}</strong> attempts to generate valid scores.</p>`;
             document.getElementById('result').innerHTML = resultHtml;
+
+            // Reset reroll counter for the next generation
+            rerollCount = 0;
         }
 
         window.onload = function() {
             document.getElementById('generateButton').click();
         };
     </script>
-    <ul>
-        <li><a href="https://github.com/bmfrosty/SimpleBX">SimpleBX - My pet project BX Clone</li>
-        <li><a href="index.html">Random Ability Score Generator where combined ability score modifier is never less than 1. (this generator)</a></li>
-        <li><a href="confix.html">Random Ability Score Generator where constitution is never less than 9.</a></li>
-        <li><a href="alwaysgood.html">Random Ability Score Generator where constitution is never less than 9, and at least one of STR, DEX, INT, or WIS is 13 or greater.</a></li>
-    </ul>
 </body>
 </html>
