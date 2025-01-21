@@ -145,19 +145,41 @@
         }
 
         function displayResults(results, total) {
+            // Get the minimum values from the input fields
+            const strMin = parseInt(document.getElementById('strMin').value) || 3;
+            const dexMin = parseInt(document.getElementById('dexMin').value) || 3;
+            const conMin = parseInt(document.getElementById('conMin').value) || 3;
+            const intMin = parseInt(document.getElementById('intMin').value) || 3;
+            const wisMin = parseInt(document.getElementById('wisMin').value) || 3;
+            const chaMin = parseInt(document.getElementById('chaMin').value) || 3;
+
+            // Build HTML for the results table
             let resultHtml = "<table><tr><th>Ability</th><th>Roll</th><th>Modifier</th></tr>";
             for (let result of results) {
                 resultHtml += `<tr><td>${result.ability}</td><td>${result.roll}</td><td>${result.modifier}</td></tr>`;
             }
             resultHtml += "</table>";
 
-            resultHtml += `<h3 style='text-align: center;'>Total Modifiers Combined: ${total}</h3>`;
-            resultHtml += `<p style='text-align: center;'>It took <strong>${rerollCount}</strong> attempts to generate valid scores.</p>`;
+            // Display the minimum values used
+            resultHtml += `
+                <h3 style='text-align: center;'>Total Modifiers Combined: ${total}</h3>
+                <p style='text-align: center;'>It took <strong>${rerollCount}</strong> attempts to generate valid scores.</p>
+                <p style='text-align: center;'>Minimum values used: 
+                    <strong>STR:</strong> ${strMin}, 
+                    <strong>DEX:</strong> ${dexMin}, 
+                    <strong>CON:</strong> ${conMin}, 
+                    <strong>INT:</strong> ${intMin}, 
+                    <strong>WIS:</strong> ${wisMin}, 
+                    <strong>CHA:</strong> ${chaMin}.
+                </p>`;
+
+            // Display the final results
             document.getElementById('result').innerHTML = resultHtml;
 
             // Reset reroll counter for the next generation
             rerollCount = 0;
         }
+
 
         window.onload = function() {
             document.getElementById('generateButton').click();
