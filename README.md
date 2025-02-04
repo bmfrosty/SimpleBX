@@ -1,14 +1,12 @@
 # This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
-# SimpleBX
-Simple BX compatible RPG System
+# This is no longer called SimpleBX
+# This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it Dio?
+Dio OSR RPG System
 
-Simple BX is a less of a complete RPG system, but more of a list of references to other documents in order to put together a more modern BX.  Maybe someday I'll get permission from all the sources to compile this into a single PDF (or *gasp* a POD book), but for now it will just be links and a little text as glue.
+This is a less of a complete RPG system, but more of a list of references to Dolmenwood in order to put together a more modern BX.  I'm copying and pasting parts of the rule system available in the [online reference](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=start) to make this more legible.  If Gavin Norman/Necrotic Gnome/Exalted Funeral reaches out to me and asks me to take down or rewrite it, I will.  If you use or enjoy this document, please consider purchasing OSE and Dolmenwood from Necrotic Gnome, written by Gavin Norman, distributed by Exalted Funeral.
 
-Damage on a successful weapon attack is no longer depedent on the weapon, but on the class instead.  It's the same as the Hit Die used for hit points.  It still has to be an appropriate weapon.  For instance, a Wizard can't use a 2-Handed sword.
-
-I don't really want to reinvent the wheel.  So the first and biggest references that I'll use are from Gavin Norman's systems and SRDs.  I'll include a bunch of links.
-
-Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll call them Referees.
+Race and Class are separate in this document.  The intent is that they act enough like B/X to not make much of a difference.
+The ELF fighter/mage is excluded for now.
 
 # First rules
 * The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.  Same with everything else.
@@ -16,10 +14,7 @@ Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll
 
 # [Character Creation]()
 * Use a Tool to roll [Ability Scores](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1).  
-* I've created 3 tools for this.  The Referee should pick one of the following and ask players to pick the first scores they get.
-    * [Here's a Tool that generates scores where the combined ability score modifier is never less than 1.](https://bmfrosty.github.io/SimpleBX/index.html).
-    * [Here's a Tool that generates scores where where constitution is never less than 9.](https://bmfrosty.github.io/SimpleBX/confix.html)
-    * [Here's a Tool that generates scores where where constitution is never less than 9, and at least one priority stat is 13 or greater.](https://bmfrosty.github.io/SimpleBX/alwaysgood.html)
+* [I've created a tool for this]().  Either run it with defaults (3d6 down the line) and create a character based on the rules on page 14 of the Classic Fantasy rules tome, or ask your Referee about alternate character creation.  My suggestion would be to set requirements, prime requisites, and constitution to 9 and then take whatever it gives you first.  You're referee may allow you to set them higher.
 
 # Starting Level
 
@@ -27,8 +22,34 @@ Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll
 * Sometimes an adventure starts at a higher level or a referee will allow replacement characters to be generated at a higher level.
 * When this happens the Referee should probably not start all character types at that level, but instead should give them starting hit points equal to a Fighter at that level.
 
+# Rolling hit dice
+
+It is possible for hit dice to roll poorly to initially or eventually make a character barely viable or non-viable. This author therefore suggests the following:
+
+At level 1 allow the player to reroll 1s on hit dice.
+At level advancement, reroll all hit dice.
+
+Examples of rerolling all hit dice:
+
+
+
+# Level Advancement
+
+Level advancement mostly consists of the following:
+
+
+
+# Races
+
+## [Human]()
+
+## [Dwarf]()
+
+## [Halfling]()
+
+## [Elf]()
+
 # Classes
-You only get 6.  The Halfling and Thief got rolled together.  Everyone gets some Thief Skills.
 
 ## [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
 Prime Requisite: Wisdom
@@ -47,52 +68,9 @@ Weapons: Any Weapons
 * Fighters can use suitable weapons 2 handed.
     * This prevents the use of a shield, but adds +1 damage to the damage die result.  +2 on a critical hit.
 
-## [Halfling](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
-Prime Requisite: Dexterity
-Hit Die: d4
-Armor: Light Armor - no Shields
-Weapons: Any not-large weapons
+## [Thief](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
 
- * Halfling replaces the Thief
- * Use Optional skill rules
- * Halflings get 4 Thief skill points at level 1 and 2 points every level after.
-    
-## [Magic-User/Wizard](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
-* Prime Requisite: Intelligence
-* Hit Die: d4
-* Armor: No Armor
-* Weapons: Staffs and Daggers
-    * A Magic-User can use a staff 2-handed for a +1 to damage
-    * This does not leave a free hand for casting
-* Magic: Arcane
-    * This requires a free hand for a Spellbook or Focus
-    * Melee weapons or thrown items can't be a Spellbook or Focus
-    * Your Referee may countermand this if they think it's fun.
-    * At character creation, a Magic User gets up to two level 1 spell.  
-    * Roll twice on the on the level 1 table using a d10.
-    * If you get the same spell twice, ask your Referee
-
-## [Elf]()
-* Prime Requisite: Intelligence and Strength
-* Hit Die: d4
-* Armor: Any non-metal Armor
-* Weapons: Any Weapon
-
-At character creation, Elves get a single level 1 spell.  Roll once on the on the level 1 table using a d10.
-
-Elves use Arcanne Magic.
-
-## [Dwarf]()
-* Prime Requisite: Strength and Constitution
-* Hit Die: d6
-* Armor: Any Armor or Shield sized appropriately
-* Weapons: Any Weapon except Bows and Crossbows
-
-* A Dwarf is mostly just a fighter that costs more XP.
-* Dwarves can use all types of armor, but it must be sized appropriately.
-* Dwarves can't use bows or crossbows.  They just refuse.
-* Dwarves get a +1 to rolls to detect room traps.
-* Dwarves have Infravision.
+## [Magic User]()
 
 # [Equipment](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=adventuring_gear)
 
@@ -101,29 +79,22 @@ Elves use Arcanne Magic.
 | Bandages | 1 | A pack of 10 Bandages |
 | Smelling Salts | 10 | A glass vial of smelling salts |
 
-## [Armor](https://oldschoolessentials.necroticgnome.com/srd/index.php/Weapons_And_Armour)
-
-| Type       | Cost (gp) | AC | Bulk   | Material |
-|------------|------|----|--------|----------|
-| Leather    | 10   | 12 | Light  | Leather  |
-| Chain Mail | 100  | 14 | Medium | Metal    |
-| Plate Mail | 1000 | 16 | Heavy  | Metal    |
-| Shield     | 10   | +1 | N/A    | Leather  |
-| Helmet     | 10   | +0 | N/A    | Leather  |
+## [Weapons and Armor](https://oldschoolessentials.necroticgnome.com/srd/index.php/Weapons_And_Armour)
 
 Base AC is 10.  If you have no armor, your AC will probably be 10.
 
-I include these here.  These are what are available in towns or cities.  You can totally add more types.  You might add Mythril for Elves to allow them heavier Armor, but make them quest for it or make it super expensive.  
-
-## Weapons
-
-We only sort of use weapons here.  They exist, but we abstract out damage.
-
+For players, you may want to check with your DM about prices - many prepackaged campaigns and other B/X derivitaves have different pricing.
 
 # [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
 
+The biggest change between OSE and Dolmenwood is the Core Rules.  It replaces 5 different player facing resolution mechanisms with 2.
 
-Saves:
+They are:
+
+## Saves
+
+These have been renamed but otherwise work the same.
+
 | Dolmenwood Version | B/X or SimpleBX Version |
 | - | - |
 | Doom | Death |
@@ -131,6 +102,18 @@ Saves:
 | Hold | Paralysis/Petrify |
 | Blast | Breath Attacks |
 | Spells | Spells / rods / staves |
+
+## Attack
+
+Attacks are still roll high, but it's simple ascending AC than the hodge podge of matricies, THAC0, and different mix of Base AC and mechanics used in various TSR products and various retro clones.
+
+## Skills
+
+These have moved from a mix of percentile and x-in-6 (which are both roll low) to a d6 roll with a DC.  See Thief and the core rules document for more detail.
+
+## Ability Check
+
+Ability checks are a d6 roll, modified by ability modifier, with a target DC of 4.  Opening a stuck door is a the same, but with a DC of 6.
 
 ## [Inventory]
 
@@ -140,6 +123,26 @@ Use a slot based inventory
 [Here's a character sheet for it](https://necroticgnome.com/products/old-school-essentials-purist-character-sheet)
 
 ## Combat
+
+Dolmenwood combat hasn't made it's rules reference yet.
+
+It's summarized thusly:
+
+1. Declare Intention to cast spells or to retreat from melee.  See Below.
+2. Initiative (Each side rolls a d6.  Higher roll wins.)
+3. Winning Side Acts
+3a. Movement
+3b. Missile Attacks
+3c. Magic
+3d. Melee Attacks
+4. Losing Side Acts (repeat steps 3a-3d)
+5. Morale (Referee makes a morale check)
+
+Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee against the other.
+
+If the losing side has spells being cast, the spellcasters can be interrupted and have their spell fail of an attack is successfully made against them.
+
+If the losing side has characters in melee attempting to flee, then attacks against those characters are made at a +2 bonus to hit.
 
 [OSE Combat](https://oldschoolessentials.necroticgnome.com/srd/index.php/Combat)
 [Labyrinth Lord Version on Page 52](https://www.drivethrurpg.com/en/product/64331/labyrinth-lord-revised-edition-no-art-version)
@@ -152,7 +155,7 @@ This is mostly play it by ear.  If the players get it, they get a free round whe
 
 ### [Initiative]()
 
-At the start of each round, have a player roll a D6.  4-6 and the players go first.  1-3 and the monsters go first.
+Players should take turns doing a d6 roll-off with the referee.  If the player is controlling a human PC, they win ties verses the referee.
 
 ### [Player Combat]()
 
@@ -173,17 +176,15 @@ At the start of each round, have a player roll a D6.  4-6 and the players go fir
 9. Sleep
 10. Ventriloquism
 
-See the Link in the header for a list of all spells.  We drop two in SimpleBX because Magic Users and Elves get them as skills.
+See the Link in the header for a list of all spells.  We drop two in SimpleBX because Arcane Casters (Magic Users) deal with Read Magic and Detect Magic as Ability and Skill Checks.
 
-### [Arcane Skills]
+Read Magic:
 
-#### [Detect Magic](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician#magician_skills):
+Roll a d6 modified by intelligence with a DC of 4.
 
-This is a skill instead of a spell in SimpleBX.  See the Magic-User link.
+Detect Magic:
 
-#### Read Magic
-
-Again a skill instead of a spell.  Use your Detect Magic Skill, Modified by your Int modifier.
+Roll a d6 with a DC that becomes easier with level.
 
 #### Learning Spells
 
