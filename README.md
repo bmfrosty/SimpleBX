@@ -1,9 +1,11 @@
-# This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
-# This is no longer called SimpleBX
-# This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it Dio?
-Dio OSR RPG System
+#### This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
+#### This is no longer called SimpleBX
+#### This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it Dio?
+# Dio OSR RPG System
 
-This is a less of a complete RPG system, but more of a list of references to Dolmenwood in order to put together a more modern BX.  I'm copying and pasting parts of the rule system available in the [online reference](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=start) to make this more legible.  If Gavin Norman/Necrotic Gnome/Exalted Funeral reaches out to me and asks me to take down or rewrite it, I will.  If you use or enjoy this document, please consider purchasing OSE and Dolmenwood from Necrotic Gnome, written by Gavin Norman, distributed by Exalted Funeral.
+This is a less of a complete RPG system, but more of a list of references to Dolmenwood and OSE in order to put together a more modern BX.  I'm copying and pasting parts of the rule system available in the [online reference](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=start) to make this more legible.  If Gavin Norman/Necrotic Gnome/Exalted Funeral reaches out to me and asks me to take down or rewrite it, I will.  If you use or enjoy this document, please consider purchasing OSE and Dolmenwood from Necrotic Gnome, written by Gavin Norman, distributed by Exalted Funeral.
+
+This document is intended for referees and players that have at least some experience with OSR systems.
 
 Race and Class are separate in this document.  The intent is that they act enough like B/X to not make much of a difference.
 The ELF fighter/mage is excluded for now.
@@ -14,36 +16,75 @@ The ELF fighter/mage is excluded for now.
 
 # [Character Creation]()
 * Use a Tool to roll [Ability Scores](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1).  
-* [I've created a tool for this]().  Either run it with defaults (3d6 down the line) and create a character based on the rules on page 14 of the Classic Fantasy rules tome, or ask your Referee about alternate character creation.  My suggestion would be to set requirements, prime requisites, and constitution to 9 and then take whatever it gives you first.  You're referee may allow you to set them higher.
+* [I've created a tool for this](https://bmfrosty.github.io/SimpleBX/).  Either run it with defaults (3d6 down the line) and create a character based on the rules on page 14 of the Classic Fantasy rules tome, or ask your Referee about alternate character creation.  My suggestion would be to set requirements, prime requisites, and constitution to 9 and then take whatever it gives you first.  You're referee may allow you to set them higher.
 
 # Starting Level
 
 * Characters typically start at level 1
 * Sometimes an adventure starts at a higher level or a referee will allow replacement characters to be generated at a higher level.
-* When this happens the Referee should probably not start all character types at that level, but instead should give them starting hit points equal to a Fighter at that level.
+* When this happens the Referee should probably not start all character types at that level, but instead should give them starting experience points equal to a Fighter at that level.
 
 # Rolling hit dice
 
 It is possible for hit dice to roll poorly to initially or eventually make a character barely viable or non-viable. This author therefore suggests the following:
 
-At level 1 allow the player to reroll 1s on hit dice.
-At level advancement, reroll all hit dice.
+* At level 1 allow the player to reroll 1s on hit dice.
+* At level advancement, reroll all hit dice.
+    * HP always goes up.
+        * Constitution is counted separately in this.
 
-Examples of rerolling all hit dice:
+Examples of rerolling all hit dice where new total is lower:
 
-
+Barnaby is a level 1 fighter with a 13 in Constitution for a Constitution bonus of 1.  At level 1 he rolled a 5 and ended up with 6 HP because of his constitution bonus.  At level 2 he rolled both hit dice and got a total of 4.  In this case he would end up with 8 HP.  The 4 from the dice would be adjusted to 6 plus the 2 HP from constitution bonuses.
 
 # Level Advancement
 
-Level advancement mostly consists of the following:
+Level advancement mostly consists of updating your character sheet with the following:
 
-
+* New Saving Throws
+* New to-hit bonuses
+* New changes to Skill Targets
+* Updated HP Maximums
 
 # Races
 
-## [Human]()
+## [Human](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=human)
+
+Humans have the following traits:
+* Deciciveness
+    * When an Initiative Roll is tied, humans act first, as if they had won initiative.
+* Leadership
+    * The Loyalty rating of retainers in the employ of a human character is increased by 1.
+* Spirited
+    * Humans are quick to learn and adapt and gain a +10% bonus to all Experience Points earned. This is in addition to any XP bonus due to the character’s Prime Requisite. For example, a human with a Prime Requisite of 15 gains a total 15% XP bonus—5% for the Prime Requisite and 10% for their Race.
 
 ## [Dwarf]()
+
+Dwarves have the following traits:
+* Requirements: CON 9
+* Ability Modifiers: -1 CHA, +1 CON
+* Available Classes and Max Level:
+    * Cleric*: 8th
+    * Fighter: 10th
+    * Thief*: 9th
+    * *These are available at the Referee's Option
+* Combat
+    * Dwarves can only use small or normal sized weapons.  They cannot use longbows or two handed swords.
+* Detect Construction Tricks
+    * Dwarves have a *ST* of 5 in a *Skill Check* to be able to detect new construction, sliding walls, or sloping passages when searching.
+* Detect Room Traps
+    * Dwarves have a *ST* of 5 in a *Skill Check* to be able to detect room traps when searching.
+* Infravision
+    * Dwarves have Infravision to 60'
+* Listening
+    * Dwarves have a *ST* of 5 in a Listen *Skill Check* 
+* Resilience
+    * Dwarves get a bonus to saving throws for Death/Poison, Spells, and Wands/Staves based on their CON scores:
+        * 6 or lower: no bonus
+        * 7-10: +2
+        * 11-14: +3
+        * 15-17: +4
+        * 18: +5
 
 ## [Halfling]()
 
@@ -95,7 +136,7 @@ They are:
 
 These have been renamed but otherwise work the same.
 
-| Dolmenwood Version | B/X or SimpleBX Version |
+| Dolmenwood Name | B/X or OSE Name |
 | - | - |
 | Doom | Death |
 | Ray | Wands |
@@ -109,11 +150,11 @@ Attacks are still roll high, but it's simple ascending AC than the hodge podge o
 
 ## Skills
 
-These have moved from a mix of percentile and x-in-6 (which are both roll low) to a d6 roll with a DC.  See Thief and the core rules document for more detail.
+These have moved from a mix of percentile and x-in-6 (which are both roll low) to a d6 roll with a *Skill Target* or *ST*.  Some are modified by Ability Modifier and some are not.  See Thief and the core rules document for more detail.
 
 ## Ability Check
 
-Ability checks are a d6 roll, modified by ability modifier, with a target DC of 4.  Opening a stuck door is a the same, but with a DC of 6.
+Ability checks are a d6 roll, modified by ability modifier, with a target of 4.
 
 ## [Inventory]
 
@@ -180,7 +221,7 @@ See the Link in the header for a list of all spells.  We drop two in SimpleBX be
 
 Read Magic:
 
-Roll a d6 modified by intelligence with a DC of 4.
+Roll a d6 modified by intelligence with a *ST* of 4.
 
 Detect Magic:
 
