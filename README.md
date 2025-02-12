@@ -1,9 +1,9 @@
 #### This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
 #### This is no longer called SimpleBX
 #### This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it UDO?
-# UDO OSR RPG System
+# D4O OSR RPG System
 
-_U_sing _D_olmenwood core rules and classes with _O_SE
+***D***olmenwood core rules and classes ***4*** ***O***SE
 
 This is a less of a complete RPG system, but more of a list of references to Dolmenwood and OSE in order to put together a more modern BX.  I'm copying and pasting parts of the rule system available in the [online reference](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=start) to make this more legible.  If Gavin Norman/Necrotic Gnome/Exalted Funeral reaches out to me and asks me to take down or rewrite it, I will.  If you use or enjoy this document, please consider purchasing OSE and Dolmenwood from Necrotic Gnome, written by Gavin Norman, distributed by Exalted Funeral.
 
