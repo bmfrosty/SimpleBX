@@ -72,14 +72,13 @@ Dwarves have the following traits:
 * Requirements: CON 9
 * Ability Modifiers: -1 CHA, +1 CON
 * Available Classes and Max Level:
-    * Cleric*: 8th
-    * Fighter: 10thcastellan
-    * Dwarves get a bonus to saving throws for Death/Poison, Spells, and Wands/Staves based on their CON scores:
-        * 6 or lower: no bonus
-        * 7-10: +2
-        * 11-14: +3
-        * 15-17: +4
-        * 18: +5
+    * Fighter: 10th
+* Dwarves get a bonus to saving throws for Death/Poison, Spells, and Wands/Staves based on their CON scores:
+    * 6 or lower: no bonus
+    * 7-10: +2
+    * 11-14: +3
+    * 15-17: +4
+    * 18: +5
 
 ## [Halfling]()
 
@@ -187,6 +186,12 @@ Weapons: Any Weapons<br/>
 | Bandages | 1 | A pack of 10 Bandages |
 | Smelling Salts | 10 | A glass vial of smelling salts |
 
+## [Armor](https://oldschoolessentials.necroticgnome.com/srd/index.php/Weapons_And_Armour)
+
+Base AC is 10.  If you have no armor, your AC will probably be 10.	
+
+I include these here.  These are what are available in towns or cities.  You can totally add more types.  You might add Mythril for Elves to allow them heavier Armor, but make them quest for it or make it super expensive.  
+
 # [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
 
 The biggest change between OSE and Dolmenwood is the Core Rules.  It replaces 5 different player facing resolution mechanisms with 2.
@@ -209,13 +214,21 @@ These have been renamed but otherwise work the same.
 
 Attacks are still roll high, but it's simple ascending AC than the hodge podge of matricies, THAC0, and different mix of Base AC and mechanics used in various TSR products and various retro clones.
 
+The base calculation to-hit is `Die Roll + To-hit Bonus + Ability Bonus + Magic Weapon Bonus >= Target AC`.
+
 ## Skills
 
 These have moved from a mix of percentile and x-in-6 (which are both roll low) to a d6 roll with a *Skill Target* or *ST*.  Some are modified by Ability Modifier and some are not.  See Thief and the core rules document for more detail.
 
-## Ability Check
+Everyone gets `Listen`, `Search`, and `Survival`.  See the core rules for Dolmenwood for details.  I've included them in character level matricies, and everyone's gets better over time.
 
-Ability checks are a d6 roll, modified by castellan
+Some Classes and Races also get other skills.  If you get the same skill from two sources, take the better of the two.
+
+## Ability Checks
+
+Ability checks are a d6 roll, modified by ability modifier.  Target is 4.
+
+## Inventory
 
 Use a slot based inventory
 
@@ -224,7 +237,7 @@ Use a slot based inventory
 There's also a version in Dolmenwood, but it hasn't made the rules reference yet.
 
 ## Combat
-castellanretreat from melee.  See Below.
+1. Declare the intent to Cast a Spell or retreat from melee.  See Below.
 2. Initiative (Each side rolls a d6.  Higher roll wins.)
 3. Winning Side Acts.
 3a. Movement
@@ -236,7 +249,9 @@ castellanretreat from melee.  See Below.
 
 Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee attack against the other.
 
-If the losing side has spells being cast, castellanattempting to flee, then attacks against those characters are made at a +2 bonus to hit.
+* If the losing side has spells being cast, taking damage causes them to fail.  
+* A failure to cast means that the resource tracking, the spell is considered cast, but has no effect.
+* If a character is attempting to flee, then attacks against them are made at a +2 bonus to hit.
 
 [OSE Combat](https://oldschoolessentials.necroticgnome.com/srd/index.php/Combat)
 [Labyrinth Lord Version on Page 52](https://www.drivethrurpg.com/en/product/64331/labyrinth-lord-revised-edition-no-art-version)
@@ -270,7 +285,7 @@ Players should take turns doing a d6 roll-off with the referee.  If the player i
 9. Sleep
 10. Ventriloquism
 
-See the Link in the header for a list of all spells.  We drop two in SimpleBX because Arcane Casters (Magic Users) deal with Read Magic and Detect Magic as Ability and Skill Checks.
+See the Link in the header for a list of all spells.  We drop two in SimpleBX because Arcane Casters (Magic Users) deal with Read Magic and Detect Magic as Skill Checks.
 
 Read Magic:
 
@@ -292,11 +307,15 @@ Roll an Int ability check.  If you succeed, you've transcribed the spell to your
 
 ### Research or Training
 
-You may be trained by a Wizard
+A Magic User of level 9 or higher may research spells or train another Magic User in casting a spell.
 
 This takes 7 adventuring days and 1,000 gold per level of the spell.  You may not adventure while in the process of doing this.
 
-## [Holy Magic]()
+This still requires transcription and the INT Ability Check at it's conclusion.
+
+Your Referee will tell you if there's an available Magic User willing to train you.
+
+## [Cleric Magic]()
 
 # Referee Section
 
