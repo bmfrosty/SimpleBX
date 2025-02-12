@@ -88,11 +88,11 @@ Dwarves have the following traits:
 # Classes
 
 ## [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
-Prime Requisite: Wisdom
-Requirements: Wisdom (9)
-Hit Die: d6
-Armor: Any Armor or Shield
-Weapons: Any Weapons
+Prime Requisite: Wisdom<br/>
+Requirements: Wisdom (9)<br/>
+Hit Die: d6<br/>
+Armor: Any Armor or Shield<br/>
+Weapons: Any Weapons<br/>
 
 Level Progressions:
 
