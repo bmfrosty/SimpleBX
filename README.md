@@ -1,9 +1,15 @@
 #### This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
 #### This is no longer called SimpleBX
-#### This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it Dio?
-# Dio OSR RPG System
+#### This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it UDO?
+# UDO OSR RPG System
+
+_U_sing _D_olmenwood core rules and classes with _O_SE
 
 This is a less of a complete RPG system, but more of a list of references to Dolmenwood and OSE in order to put together a more modern BX.  I'm copying and pasting parts of the rule system available in the [online reference](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=start) to make this more legible.  If Gavin Norman/Necrotic Gnome/Exalted Funeral reaches out to me and asks me to take down or rewrite it, I will.  If you use or enjoy this document, please consider purchasing OSE and Dolmenwood from Necrotic Gnome, written by Gavin Norman, distributed by Exalted Funeral.
+
+This document is mostly laid out in the same order that OSE is.
+
+Hopefully Necrotic Gnome eventually makes a 2e of OSE and this document gets removed and archived as unnecessary or just becomes a small house rules document - house rules will be noted.
 
 This document is intended for referees and players that have at least some experience with OSR systems.
 
@@ -11,22 +17,24 @@ Race and Class are separate in this document.  The intent is that they act enoug
 The ELF fighter/mage is excluded for now.
 
 # First rules
-* The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.  Same with everything else.
-* Something else
+* The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.
+* Same with everything else.
 
 # [Character Creation]()
 * Use a Tool to roll [Ability Scores](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1).  
-* [I've created a tool for this](https://bmfrosty.github.io/SimpleBX/).  Either run it with defaults (3d6 down the line) and create a character based on the rules on page 14 of the Classic Fantasy rules tome, or ask your Referee about alternate character creation.  My suggestion would be to set requirements, prime requisites, and constitution to 9 and then take whatever it gives you first.  You're referee may allow you to set them higher.
+* [I've created a tool for this](https://bmfrosty.github.io/SimpleBX/).  Either run it with defaults (3d6 down the line) and create a character based on the rules on page 14 of the Classic Fantasy rules tome, or ask your Referee about alternate character creation.  
+    * My ***house rule*** would be to set requirements, prime requisites, and constitution to 9 and then take whatever it gives you first.  
+    * Your referee may allow you to set them higher.
 
 # Starting Level
 
 * Characters typically start at level 1
 * Sometimes an adventure starts at a higher level or a referee will allow replacement characters to be generated at a higher level.
-* When this happens the Referee should probably not start all character types at that level, but instead should give them starting experience points equal to a Fighter at that level.
+* My ***house rule*** is when this happens the Referee should probably not start all character types at that level, but instead should give them starting experience points equal to a Fighter at that level.  Magic Users end up starting lower level, while Clerics and Thieves start higher.
 
 # Rolling hit dice
 
-It is possible for hit dice to roll poorly to initially or eventually make a character barely viable or non-viable. This author therefore suggests the following:
+It is possible for hit dice to roll poorly to initially or eventually make a character barely viable or non-viable. This author's ***house rule*** suggests the following:
 
 * At level 1 allow the player to reroll 1s on hit dice.
 * At level advancement, reroll all hit dice.
@@ -65,20 +73,7 @@ Dwarves have the following traits:
 * Ability Modifiers: -1 CHA, +1 CON
 * Available Classes and Max Level:
     * Cleric*: 8th
-    * Fighter: 10th
-    * Thief*: 9th
-    * *These are available at the Referee's Option
-* Combat
-    * Dwarves can only use small or normal sized weapons.  They cannot use longbows or two handed swords.
-* Detect Construction Tricks
-    * Dwarves have a *ST* of 5 in a *Skill Check* to be able to detect new construction, sliding walls, or sloping passages when searching.
-* Detect Room Traps
-    * Dwarves have a *ST* of 5 in a *Skill Check* to be able to detect room traps when searching.
-* Infravision
-    * Dwarves have Infravision to 60'
-* Listening
-    * Dwarves have a *ST* of 5 in a Listen *Skill Check* 
-* Resilience
+    * Fighter: 10thcastellan
     * Dwarves get a bonus to saving throws for Death/Poison, Spells, and Wands/Staves based on their CON scores:
         * 6 or lower: no bonus
         * 7-10: +2
@@ -94,17 +89,28 @@ Dwarves have the following traits:
 
 ## [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
 Prime Requisite: Wisdom
+Requirements: Wisdom (9)
 Hit Die: d6
-Armor: Any Armor or Shield that isn't infused with Arcane Magic.  Most magic armor isn't infused with Arcane Magic.  Ask your Referee.
-Weapons: Any Weapon that isn't infused with Arcane Magic.  Most magic weapons isn't infused with Arcane Magic.  Ask your Referee.
-
-Clerics use Holy Magic.
-
-## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
-Prime Requisite: Strength
-Hit Die: d8
 Armor: Any Armor or Shield
 Weapons: Any Weapons
+
+|       |         | Hit    | Attack | <td colspan="5">Save Targets</td> | <td colspan="5">Spell Rank</td> |
+| ----- | ------- | ------ | ------ | ------------ | ---------- |
+| Level | XP      | Points | Bonus  | Doom         | Ray        | Hold | Blast | Spell | 1 | 2 | 3 | 4 | 5 |
+| 1     | 0       | 1d6    | 0      | 11           | 12         | 13 | 16 | 14 | – | – | – | – | – |
+| 2     | 1,500   | 2d6    | 0      | 11           | 12         | 13 | 16 | 14 | 1 | – | – | – | – |
+| 3     | 3,000   | 3d6    | 1      | 10           | 11         | 12 | 15 | 13 | 2 | – | – | – | – |
+| 4     | 6,000   | 4d6    | 1      | 10           | 11         | 12 | 15 | 13 | 2 | 1 | – | – | – |
+| 5     | 12,000  | 5d6    | 2      | 9            | 10         | 11 | 14 | 12 | 2 | 2 | – | – | – |
+| 6     | 24,000  | 5d6    | 2      | 9            | 10         | 11 | 14 | 12 | 2 | 2 | 1 | 1 | – |
+| 7     | 48,000  | 7d6    | 3      | 8            | 9          | 10 | 13 | 11 | 3 | 2 | 2 | 1 | 1 |
+| 8     | 96,000  | 8d6    | 3      | 8            | 9          | 10 | 13 | 11 | 3 | 2 | 2 | 2 | 1 |
+| 9     | 190,000 | 9d6    | 4      | 7            | 8          | 9 | 12 | 10 | 3 | 3 | 2 | 2 | 2 |
+| 10    | 290,000 | 9d6+1  | 4      | 7            | 8          | 9 | 12 | 10 | 3 | 3 | 2 | 2 | 2 |
+| 11    | 390,000 | 9d6+2  | 5      | 6            | 7          | 8 | 11 | 9 | 4 | 3 | 3 | 2 | 2 |
+| 12    | 490,000 | 9d6+3  | 5      | 6            | 7          | 8 | 11 | 9 | 4 | 3 | 3 | 3 | 2 |
+| 13    | 590,000 | 9d6+4  | 6      | 5            | 6          | 7 | 10 | 8 | 4 | 4 | 3 | 3 | 3 |
+| 14    | 690,000 | 9d6+5  | 6      | 5            | 6          | 7 | 10 | 8 | 4 | 4 | 3 | 3 | 3 |
 
 * Fighters can use suitable weapons 2 handed.
     * This prevents the use of a shield, but adds +1 damage to the damage die result.  +2 on a critical hit.
@@ -119,14 +125,7 @@ Weapons: Any Weapons
 | - | - | - |
 | Bandages | 1 | A pack of 10 Bandages |
 | Smelling Salts | 10 | A glass vial of smelling salts |
-
-## [Weapons and Armor](https://oldschoolessentials.necroticgnome.com/srd/index.php/Weapons_And_Armour)
-
-Base AC is 10.  If you have no armor, your AC will probably be 10.
-
-For players, you may want to check with your DM about prices - many prepackaged campaigns and other B/X derivitaves have different pricing.
-
-# [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
+castellanoticgnome.com/rules/doku.php?id=core_rules)
 
 The biggest change between OSE and Dolmenwood is the Core Rules.  It replaces 5 different player facing resolution mechanisms with 2.
 
@@ -154,24 +153,18 @@ These have moved from a mix of percentile and x-in-6 (which are both roll low) t
 
 ## Ability Check
 
-Ability checks are a d6 roll, modified by ability modifier, with a target of 4.
-
-## [Inventory]
+Ability checks are a d6 roll, modified by castellan
 
 Use a slot based inventory
 
-[There's an interesting one that Gavin Norman](https://cdn.shopify.com/s/files/1/0017/2330/1933/files/Item-Based_Encumbrance_-_Play_Test_v0-2.pdf) put in Carcass Crawler eventually.  I think I like this one the best of what I've seen.
+[There's an interesting one that Gavin Norman](https://cdn.shopify.com/s/files/1/0017/2330/1933/files/Item-Based_Encumbrance_-_Play_Test_v0-2.pdf) put in Carcass Crawler eventually.
 [Here's a character sheet for it](https://necroticgnome.com/products/old-school-essentials-purist-character-sheet)
+There's also a version in Dolmenwood, but it hasn't made the rules reference yet.
 
 ## Combat
-
-Dolmenwood combat hasn't made it's rules reference yet.
-
-It's summarized thusly:
-
-1. Declare Intention to cast spells or to retreat from melee.  See Below.
+castellanretreat from melee.  See Below.
 2. Initiative (Each side rolls a d6.  Higher roll wins.)
-3. Winning Side Acts
+3. Winning Side Acts.
 3a. Movement
 3b. Missile Attacks
 3c. Magic
@@ -179,11 +172,9 @@ It's summarized thusly:
 4. Losing Side Acts (repeat steps 3a-3d)
 5. Morale (Referee makes a morale check)
 
-Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee against the other.
+Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee attack against the other.
 
-If the losing side has spells being cast, the spellcasters can be interrupted and have their spell fail of an attack is successfully made against them.
-
-If the losing side has characters in melee attempting to flee, then attacks against those characters are made at a +2 bonus to hit.
+If the losing side has spells being cast, castellanattempting to flee, then attacks against those characters are made at a +2 bonus to hit.
 
 [OSE Combat](https://oldschoolessentials.necroticgnome.com/srd/index.php/Combat)
 [Labyrinth Lord Version on Page 52](https://www.drivethrurpg.com/en/product/64331/labyrinth-lord-revised-edition-no-art-version)
@@ -237,7 +228,9 @@ You must posess a Scroll or Spellbook of the spell in question.
 
 Roll an Int ability check.  If you succeed, you've transcribed the spell to your spellbook.  If you fail and it's from a scroll, the scroll crumbles and is now gone.  If it's a spellbook, you get to try again when you go up a level.  You can try again at the same level with a different source spellbook or scroll.  This takes an adventuring day and has a cost of 0 gold.  You may not adventure while in the process of doing this.
 
-### Research
+### Research or Training
+
+You may be trained by a Wizard
 
 This takes 7 adventuring days and 1,000 gold per level of the spell.  You may not adventure while in the process of doing this.
 
