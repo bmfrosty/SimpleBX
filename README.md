@@ -98,20 +98,20 @@ Level Progressions:
 
 | Level | XP      | HP    | To-Hit |
 | ----- | ------- | ----- | ------ |
-| 1     | 0       | 1d6   | 0      |
-| 2     | 1,500   | 2d6   | 0      |
-| 3     | 3,000   | 3d6   | 1      |
-| 4     | 6,000   | 4d6   | 1      |
-| 5     | 12,000  | 5d6   | 2      |
-| 6     | 24,000  | 5d6   | 2      |
-| 7     | 48,000  | 7d6   | 3      |
-| 8     | 96,000  | 8d6   | 3      |
-| 9     | 190,000 | 9d6   | 4      |
-| 10    | 290,000 | 9d6+1 | 4      |
-| 11    | 390,000 | 9d6+2 | 5      |
-| 12    | 490,000 | 9d6+3 | 5      |
-| 13    | 590,000 | 9d6+4 | 6      |
-| 14    | 690,000 | 9d6+5 | 6      |
+| 1     | 0       | 1d6   | +0     |
+| 2     | 1,500   | 2d6   | +0     |
+| 3     | 3,000   | 3d6   | +1     |
+| 4     | 6,000   | 4d6   | +1     |
+| 5     | 12,000  | 5d6   | +2     |
+| 6     | 24,000  | 5d6   | +2     |
+| 7     | 48,000  | 7d6   | +3     |
+| 8     | 96,000  | 8d6   | +3     |
+| 9     | 190,000 | 9d6   | +4     |
+| 10    | 290,000 | 9d6+1 | +4     |
+| 11    | 390,000 | 9d6+2 | +5     |
+| 12    | 490,000 | 9d6+3 | +5     |
+| 13    | 590,000 | 9d6+4 | +6     |
+| 14    | 690,000 | 9d6+5 | +6     |
 
 Save Targets:
 
@@ -171,10 +171,10 @@ Skill Targets:
 | 14    | 5        | 5      | 5      |
 
 ## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
-Prime Requisite: Strength
-Hit Die: d8
-Armor: Any Armor or Shield
-Weapons: Any Weapons
+Prime Requisite: Strength<br/>
+Hit Die: d8<br/>
+Armor: Any Armor or Shield<br/>
+Weapons: Any Weapons<br/>
 
 ## [Thief](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
 
@@ -186,7 +186,8 @@ Weapons: Any Weapons
 | - | - | - |
 | Bandages | 1 | A pack of 10 Bandages |
 | Smelling Salts | 10 | A glass vial of smelling salts |
-castellanoticgnome.com/rules/doku.php?id=core_rules)
+
+# [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
 
 The biggest change between OSE and Dolmenwood is the Core Rules.  It replaces 5 different player facing resolution mechanisms with 2.
 
