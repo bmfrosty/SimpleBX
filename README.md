@@ -170,10 +170,11 @@ Skill Targets:
 | 13    | 5        | 5      | 5      |
 | 14    | 5        | 5      | 5      |
 
-## [Fighter]()
-
-* Fighters can use suitable weapons 2 handed.
-    * This prevents the use of a shield, but adds +1 damage to the damage die result.  +2 on a critical hit.
+## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
+Prime Requisite: Strength
+Hit Die: d8
+Armor: Any Armor or Shield
+Weapons: Any Weapons
 
 ## [Thief](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
 
