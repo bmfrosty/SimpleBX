@@ -94,7 +94,7 @@ Hit Die: d6
 Armor: Any Armor or Shield
 Weapons: Any Weapons
 
-|       |         | Hit    | Attack | <td colspan="5">Save Targets</td> | <td colspan="5">Spell Rank</td> |
+|       |         | Hit    | Attack | Save Targets | Spell Rank |
 | ----- | ------- | ------ | ------ | ------------ | ---------- |
 | Level | XP      | Points | Bonus  | Doom         | Ray        | Hold | Blast | Spell | 1 | 2 | 3 | 4 | 5 |
 | 1     | 0       | 1d6    | 0      | 11           | 12         | 13 | 16 | 14 | – | – | – | – | – |
