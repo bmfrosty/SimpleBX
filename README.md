@@ -237,17 +237,17 @@ Use a slot based inventory
 There's also a version in Dolmenwood, but it hasn't made the rules reference yet.
 
 ## Combat
-1. Declare the intent to Cast a Spell or retreat from melee.  See Below.
-2. Initiative (Each side rolls a d6.  Higher roll wins.)
+1. Both side ***Declare*** the intent to Cast a Spell or retreat from melee.  See Below.
+2. ***Initiative*** (Each side rolls a d6.  Higher roll wins.)
 3. Winning Side Acts.
 3a. Movement
 3b. Missile Attacks
 3c. Magic
 3d. Melee Attacks
 4. Losing Side Acts (repeat steps 3a-3d)
-5. Morale (Referee makes a morale check)
+5. Morale (Referee makes a morale check if )
 
-Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee attack against the other.
+Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee attack against the other.<br/>
 
 * If the losing side has spells being cast, taking damage causes them to fail.  
 * A failure to cast means that the resource tracking, the spell is considered cast, but has no effect.
@@ -264,7 +264,8 @@ This is mostly play it by ear.  If the players get it, they get a free round whe
 
 ### [Initiative]()
 
-Players should take turns doing a d6 roll-off with the referee.  If the player is controlling a human PC, they win ties verses the referee.
+Players should take turns doing a d6 roll-off with the referee.<br/>
+If the player is controlling a human PC, they win ties verses the referee.
 
 ### [Player Combat]()
 
@@ -285,15 +286,9 @@ Players should take turns doing a d6 roll-off with the referee.  If the player i
 9. Sleep
 10. Ventriloquism
 
-See the Link in the header for a list of all spells.  We drop two in SimpleBX because Arcane Casters (Magic Users) deal with Read Magic and Detect Magic as Skill Checks.
-
-Read Magic:
-
-Roll a d6 modified by intelligence with a *ST* of 4.
-
-Detect Magic:
-
-Roll a d6 with a DC that becomes easier with level.
+See the Link in the header for a list of all spells.<br/>  
+Read Magic is now an Intelligence Ability Check.<br/>
+Detect Magic is now a Skill Check.<br/>
 
 #### Learning Spells
 
@@ -319,31 +314,17 @@ Your Referee will tell you if there's an available Magic User willing to train y
 
 # Referee Section
 
-This is a system made out of house rules.  I wholeheartedly recommend you house rule everything anyway.  I feel like it isn't actually simple and SimpleBX is a bit of a misnomer.
+This is an attempt to integrate the revised rules in Dolmenwood into OSE.<br/>
+It has some issues.
 
 ## Death and Dying
 Death and Dying are detrimental to getting some characters high enough level for a higher level campaign.  These are some rules to try and blunt that a bit.
 
 ### Death Saves
-* This RPG includs a death save.  
+* This RPG includs a doom/death/poison save.  
 * You can use this for a death save.  
 * You can take a character that's been dropped below 1 HP and if they make their death save, they don't die.
 * They're at 0 HP and unconcious instead.
-
-### Bandages
-I've added them to the equipment list.  Consider them disposable and easy to ruin.  If the players get don't protect them from dirt and water, they're unusable.
-* During combat, allow characters to use one on another character to save them for death.
-* Characters get a number of rounds equal to their level to be saved from death.
-* This is a second chance to save a character.
-
-### Smelling Salts
-I've added them to the equipment list.  Consider them easy to ruin.  They can be reused until the glass vial they're in gets ruined.  
-* They can wake up an unconcious character, but they don't heal the character.
-* A concious 0HP character is useless.
-    * Can't participate in combat.
-    * Has a -5 to all saves.
-    * Only redeeming quality is that they don't have to be carried.
-    * Moves at half speed.
 
 ## Author Notes
 
