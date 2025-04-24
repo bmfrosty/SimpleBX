@@ -1,98 +1,183 @@
-# This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
-# SimpleBX
-Simple BX compatible RPG System
+#### This is totally a work in progress.  No bug reports for the system yet please.  Feel free if any of the generators don't work as described.
+#### This is no longer called SimpleBX
+#### This is a document about using the principles that guided rule changes for Dolmenwood with OSE. Maybe call it UDO?
+# D4O OSR RPG System
 
-Simple BX is a less of a complete RPG system, but more of a list of references to other documents in order to put together a more modern BX.  Maybe someday I'll get permission from all the sources to compile this into a single PDF (or *gasp* a POD book), but for now it will just be links and a little text as glue.
+***D***olmenwood core rules and classes ***4*** ***O***SE
 
-Damage on a successful weapon attack is no longer depedent on the weapon, but on the class instead.  It's the same as the Hit Die used for hit points.  It still has to be an appropriate weapon.  For instance, a Wizard can't use a 2-Handed sword.
+This is a less of a complete RPG system, but more of a list of references to Dolmenwood and OSE in order to put together a more modern BX.  I'm copying and pasting parts of the rule system available in the [online reference](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=start) to make this more legible.  If Gavin Norman/Necrotic Gnome/Exalted Funeral reaches out to me and asks me to take down or rewrite it, I will.  If you use or enjoy this document, please consider purchasing OSE and Dolmenwood from Necrotic Gnome, written by Gavin Norman, distributed by Exalted Funeral.
 
-I don't really want to reinvent the wheel.  So the first and biggest references that I'll use are from Gavin Norman's systems and SRDs.  I'll include a bunch of links.
+This document is mostly laid out in the same order that OSE is.
 
-Whatever you call it, DM, GM, Referee, Judge, Labyrinth Lord, or whatever, we'll call them Referees.
+Hopefully Necrotic Gnome eventually makes a 2e of OSE and this document gets removed and archived as unnecessary or just becomes a small house rules document - house rules will be noted.
+
+This document is intended for referees and players that have at least some experience with OSR systems.
+
+Race and Class are separate in this document.  The intent is that they act enough like B/X to not make much of a difference.
+The ELF fighter/mage is excluded for now.
 
 # First rules
-* The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.  Same with everything else.
-* Something else
+* The Referee is always right, and if they say that character creation works differently, then in their game character creation works differently.
+* Same with everything else.
 
 # [Character Creation]()
 * Use a Tool to roll [Ability Scores](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=ability_scores#ability_modifiers1).  
-* I've created 3 tools for this.  The Referee should pick one of the following and ask players to pick the first scores they get.
-    * [Here's a Tool that generates scores where the combined ability score modifier is never less than 1.](https://bmfrosty.github.io/SimpleBX/index.html).
-    * [Here's a Tool that generates scores where where constitution is never less than 9.](https://bmfrosty.github.io/SimpleBX/confix.html)
-    * [Here's a Tool that generates scores where where constitution is never less than 9, and at least one priority stat is 13 or greater.](https://bmfrosty.github.io/SimpleBX/alwaysgood.html)
+* [I've created a tool for this](https://bmfrosty.github.io/SimpleBX/).  Either run it with defaults (3d6 down the line) and create a character based on the rules on page 14 of the Classic Fantasy rules tome, or ask your Referee about alternate character creation.  
+    * My ***house rule*** would be to set requirements, prime requisites, and constitution to 9 and then take whatever it gives you first.  
+    * Your referee may allow you to set them higher.
 
 # Starting Level
 
 * Characters typically start at level 1
 * Sometimes an adventure starts at a higher level or a referee will allow replacement characters to be generated at a higher level.
-* When this happens the Referee should probably not start all character types at that level, but instead should give them starting hit points equal to a Fighter at that level.
+* My ***house rule*** is when this happens the Referee should probably not start all character types at that level, but instead should give them starting experience points equal to a Fighter at that level.  Magic Users end up starting lower level, while Clerics and Thieves start higher.
 
-# Classes
-You only get 6.  The Halfling and Thief got rolled together.  Everyone gets some Thief Skills.
+# Rolling hit dice
 
-## [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
-Prime Requisite: Wisdom
-Hit Die: d6
-Armor: Any Armor or Shield that isn't infused with Arcane Magic.  Most magic armor isn't infused with Arcane Magic.  Ask your Referee.
-Weapons: Any Weapon that isn't infused with Arcane Magic.  Most magic weapons isn't infused with Arcane Magic.  Ask your Referee.
+It is possible for hit dice to roll poorly to initially or eventually make a character barely viable or non-viable. This author's ***house rule*** suggests the following:
 
-Clerics use Holy Magic.
+* At level 1 allow the player to reroll 1s on hit dice.
+* At level advancement, reroll all hit dice.
+    * HP always goes up.
+        * Constitution is counted separately in this.
 
-## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
-Prime Requisite: Strength
-Hit Die: d8
-Armor: Any Armor or Shield
-Weapons: Any Weapons
+Examples of rerolling all hit dice where new total is lower:
 
-* Fighters can use suitable weapons 2 handed.
-    * This prevents the use of a shield, but adds +1 damage to the damage die result.  +2 on a critical hit.
+Barnaby is a level 1 fighter with a 13 in Constitution for a Constitution bonus of 1.  At level 1 he rolled a 5 and ended up with 6 HP because of his constitution bonus.  At level 2 he rolled both hit dice and got a total of 4.  In this case he would end up with 8 HP.  The 4 from the dice would be adjusted to 6 plus the 2 HP from constitution bonuses.
 
-## [Halfling](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
-Prime Requisite: Dexterity
-Hit Die: d4
-Armor: Light Armor - no Shields
-Weapons: Any not-large weapons
+# Level Advancement
 
- * Halfling replaces the Thief
- * Use Optional skill rules
- * Halflings get 4 Thief skill points at level 1 and 2 points every level after.
-    
-## [Magic-User/Wizard](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician)
-* Prime Requisite: Intelligence
-* Hit Die: d4
-* Armor: No Armor
-* Weapons: Staffs and Daggers
-    * A Magic-User can use a staff 2-handed for a +1 to damage
-    * This does not leave a free hand for casting
-* Magic: Arcane
-    * This requires a free hand for a Spellbook or Focus
-    * Melee weapons or thrown items can't be a Spellbook or Focus
-    * Your Referee may countermand this if they think it's fun.
-    * At character creation, a Magic User gets up to two level 1 spell.  
-    * Roll twice on the on the level 1 table using a d10.
-    * If you get the same spell twice, ask your Referee
+Level advancement mostly consists of updating your character sheet with the following:
 
-## [Elf]()
-* Prime Requisite: Intelligence and Strength
-* Hit Die: d4
-* Armor: Any non-metal Armor
-* Weapons: Any Weapon
+* New Saving Throws
+* New to-hit bonuses
+* New changes to Skill Targets
+* Updated HP Maximums
 
-At character creation, Elves get a single level 1 spell.  Roll once on the on the level 1 table using a d10.
+# Races
 
-Elves use Arcanne Magic.
+## [Human](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=human)
+
+Humans have the following traits:
+* Deciciveness
+    * When an Initiative Roll is tied, humans act first, as if they had won initiative.
+* Leadership
+    * The Loyalty rating of retainers in the employ of a human character is increased by 1.
+* Spirited
+    * Humans are quick to learn and adapt and gain a +10% bonus to all Experience Points earned. This is in addition to any XP bonus due to the character’s Prime Requisite. For example, a human with a Prime Requisite of 15 gains a total 15% XP bonus—5% for the Prime Requisite and 10% for their Race.
 
 ## [Dwarf]()
-* Prime Requisite: Strength and Constitution
-* Hit Die: d6
-* Armor: Any Armor or Shield sized appropriately
-* Weapons: Any Weapon except Bows and Crossbows
 
-* A Dwarf is mostly just a fighter that costs more XP.
-* Dwarves can use all types of armor, but it must be sized appropriately.
-* Dwarves can't use bows or crossbows.  They just refuse.
-* Dwarves get a +1 to rolls to detect room traps.
-* Dwarves have Infravision.
+Dwarves have the following traits:
+* Requirements: CON 9
+* Ability Modifiers: -1 CHA, +1 CON
+* Available Classes and Max Level:
+    * Fighter: 10th
+* Dwarves get a bonus to saving throws for Death/Poison, Spells, and Wands/Staves based on their CON scores:
+    * 6 or lower: no bonus
+    * 7-10: +2
+    * 11-14: +3
+    * 15-17: +4
+    * 18: +5
+
+## [Halfling]()
+
+## [Elf]()
+
+# Classes
+
+## [Cleric](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=cleric)
+Prime Requisite: Wisdom<br/>
+Requirements: Wisdom (9)<br/>
+Hit Die: d6<br/>
+Armor: Any Armor or Shield<br/>
+Weapons: Any Weapons<br/>
+
+Level Progressions:
+
+| Level | XP      | HP    | To-Hit |
+| ----- | ------- | ----- | ------ |
+| 1     | 0       | 1d6   | +0     |
+| 2     | 1,500   | 2d6   | +0     |
+| 3     | 3,000   | 3d6   | +1     |
+| 4     | 6,000   | 4d6   | +1     |
+| 5     | 12,000  | 5d6   | +2     |
+| 6     | 24,000  | 5d6   | +2     |
+| 7     | 48,000  | 7d6   | +3     |
+| 8     | 96,000  | 8d6   | +3     |
+| 9     | 190,000 | 9d6   | +4     |
+| 10    | 290,000 | 9d6+1 | +4     |
+| 11    | 390,000 | 9d6+2 | +5     |
+| 12    | 490,000 | 9d6+3 | +5     |
+| 13    | 590,000 | 9d6+4 | +6     |
+| 14    | 690,000 | 9d6+5 | +6     |
+
+Save Targets:
+
+| Level | Doom | Ray | Hold | Blast | Spell |
+| ----- | ---- | --- | ---- | ----- | ----- |
+| 1     | 11   | 12  | 13   | 16    | 14    |
+| 2     | 11   | 12  | 13   | 16    | 14    |
+| 3     | 10   | 11  | 12   | 15    | 13    |
+| 4     | 10   | 11  | 12   | 15    | 13    |
+| 5     | 9    | 10  | 11   | 14    | 12    |
+| 6     | 9    | 10  | 11   | 14    | 12    |
+| 7     | 8    | 9   | 10   | 13    | 11    |
+| 8     | 8    | 9   | 10   | 13    | 11    |
+| 9     | 7    | 8   | 9    | 12    | 10    |
+| 10    | 7    | 8   | 9    | 12    | 10    |
+| 11    | 6    | 7   | 8    | 11    | 9     |
+| 12    | 6    | 7   | 8    | 11    | 9     |
+| 13    | 5    | 6   | 7    | 10    | 8     |
+| 14    | 5    | 6   | 7    | 10    | 8     |
+
+Spells per level:
+
+| Level | 1 | 2 | 3 | 4 | 5 |
+| ----- | - | - | - | - | - |
+| 1     | – | – | – | – | – |
+| 2     | 1 | – | – | – | – |
+| 3     | 2 | – | – | – | – |
+| 4     | 2 | 1 | – | – | – |
+| 5     | 2 | 2 | – | – | – |
+| 6     | 2 | 2 | 1 | 1 | – |
+| 7     | 3 | 2 | 2 | 1 | 1 |
+| 8     | 3 | 2 | 2 | 2 | 1 |
+| 9     | 3 | 3 | 2 | 2 | 2 |
+| 10    | 3 | 3 | 2 | 2 | 2 |
+| 11    | 4 | 3 | 3 | 2 | 2 |
+| 12    | 4 | 3 | 3 | 3 | 2 |
+| 13    | 4 | 4 | 3 | 3 | 3 |
+| 14    | 4 | 4 | 3 | 3 | 3 |
+
+Skill Targets:
+
+| Level | Survival | Listen | Search |
+| ----- | -------- | ------ | ------ |
+| 1     | 6        | 6      | 6      |
+| 2     | 6        | 6      | 6      |
+| 3     | 6        | 6      | 6      |
+| 4     | 6        | 6      | 6      |
+| 5     | 6        | 6      | 6      |
+| 6     | 6        | 6      | 6      |
+| 7     | 6        | 6      | 6      |
+| 8     | 5        | 5      | 5      |
+| 9     | 5        | 5      | 5      |
+| 10    | 5        | 5      | 5      |
+| 11    | 5        | 5      | 5      |
+| 12    | 5        | 5      | 5      |
+| 13    | 5        | 5      | 5      |
+| 14    | 5        | 5      | 5      |
+
+## [Fighter](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=fighter)
+Prime Requisite: Strength<br/>
+Hit Die: d8<br/>
+Armor: Any Armor or Shield<br/>
+Weapons: Any Weapons<br/>
+
+## [Thief](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=thief)
+
+## [Magic User]()
 
 # [Equipment](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=adventuring_gear)
 
@@ -103,28 +188,21 @@ Elves use Arcanne Magic.
 
 ## [Armor](https://oldschoolessentials.necroticgnome.com/srd/index.php/Weapons_And_Armour)
 
-| Type       | Cost (gp) | AC | Bulk   | Material |
-|------------|------|----|--------|----------|
-| Leather    | 10   | 12 | Light  | Leather  |
-| Chain Mail | 100  | 14 | Medium | Metal    |
-| Plate Mail | 1000 | 16 | Heavy  | Metal    |
-| Shield     | 10   | +1 | N/A    | Leather  |
-| Helmet     | 10   | +0 | N/A    | Leather  |
-
-Base AC is 10.  If you have no armor, your AC will probably be 10.
+Base AC is 10.  If you have no armor, your AC will probably be 10.	
 
 I include these here.  These are what are available in towns or cities.  You can totally add more types.  You might add Mythril for Elves to allow them heavier Armor, but make them quest for it or make it super expensive.  
 
-## Weapons
-
-We only sort of use weapons here.  They exist, but we abstract out damage.
-
-
 # [Core Rules](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=core_rules)
 
+The biggest change between OSE and Dolmenwood is the Core Rules.  It replaces 5 different player facing resolution mechanisms with 2.
 
-Saves:
-| Dolmenwood Version | B/X or SimpleBX Version |
+They are:
+
+## Saves
+
+These have been renamed but otherwise work the same.
+
+| Dolmenwood Name | B/X or OSE Name |
 | - | - |
 | Doom | Death |
 | Ray | Wands |
@@ -132,14 +210,48 @@ Saves:
 | Blast | Breath Attacks |
 | Spells | Spells / rods / staves |
 
-## [Inventory]
+## Attack
+
+Attacks are still roll high, but it's simple ascending AC than the hodge podge of matricies, THAC0, and different mix of Base AC and mechanics used in various TSR products and various retro clones.
+
+The base calculation to-hit is `Die Roll + To-hit Bonus + Ability Bonus + Magic Weapon Bonus >= Target AC`.
+
+## Skills
+
+These have moved from a mix of percentile and x-in-6 (which are both roll low) to a d6 roll with a *Skill Target* or *ST*.  Some are modified by Ability Modifier and some are not.  See Thief and the core rules document for more detail.
+
+Everyone gets `Listen`, `Search`, and `Survival`.  See the core rules for Dolmenwood for details.  I've included them in character level matricies, and everyone's gets better over time.
+
+Some Classes and Races also get other skills.  If you get the same skill from two sources, take the better of the two.
+
+## Ability Checks
+
+Ability checks are a d6 roll, modified by ability modifier.  Target is 4.
+
+## Inventory
 
 Use a slot based inventory
 
-[There's an interesting one that Gavin Norman](https://cdn.shopify.com/s/files/1/0017/2330/1933/files/Item-Based_Encumbrance_-_Play_Test_v0-2.pdf) put in Carcass Crawler eventually.  I think I like this one the best of what I've seen.
+[There's an interesting one that Gavin Norman](https://cdn.shopify.com/s/files/1/0017/2330/1933/files/Item-Based_Encumbrance_-_Play_Test_v0-2.pdf) put in Carcass Crawler eventually.
 [Here's a character sheet for it](https://necroticgnome.com/products/old-school-essentials-purist-character-sheet)
+There's also a version in Dolmenwood, but it hasn't made the rules reference yet.
 
 ## Combat
+1. Both side ***Declare*** the intent to Cast a Spell or retreat from melee.  See Below.
+2. ***Initiative*** (Each side rolls a d6.  Higher roll wins.)
+3. Winning Side Acts.
+3a. Movement
+3b. Missile Attacks
+3c. Magic
+3d. Melee Attacks
+4. Losing Side Acts (repeat steps 3a-3d)
+5. Morale (Referee makes a morale check if )
+
+Combatants are considered in Melee if they're within 5' of each other and one or both has made a melee attack against the other.<br/>
+
+* If the losing side has spells being cast, taking damage causes them to fail.  
+* A failure to cast means that the resource tracking, the spell is considered cast, but has no effect.
+* If a character is attempting to flee, then attacks against them are made at a +2 bonus to hit.
 
 [OSE Combat](https://oldschoolessentials.necroticgnome.com/srd/index.php/Combat)
 [Labyrinth Lord Version on Page 52](https://www.drivethrurpg.com/en/product/64331/labyrinth-lord-revised-edition-no-art-version)
@@ -152,7 +264,8 @@ This is mostly play it by ear.  If the players get it, they get a free round whe
 
 ### [Initiative]()
 
-At the start of each round, have a player roll a D6.  4-6 and the players go first.  1-3 and the monsters go first.
+Players should take turns doing a d6 roll-off with the referee.<br/>
+If the player is controlling a human PC, they win ties verses the referee.
 
 ### [Player Combat]()
 
@@ -173,17 +286,9 @@ At the start of each round, have a player roll a D6.  4-6 and the players go fir
 9. Sleep
 10. Ventriloquism
 
-See the Link in the header for a list of all spells.  We drop two in SimpleBX because Magic Users and Elves get them as skills.
-
-### [Arcane Skills]
-
-#### [Detect Magic](https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=magician#magician_skills):
-
-This is a skill instead of a spell in SimpleBX.  See the Magic-User link.
-
-#### Read Magic
-
-Again a skill instead of a spell.  Use your Detect Magic Skill, Modified by your Int modifier.
+See the Link in the header for a list of all spells.<br/>  
+Read Magic is now an Intelligence Ability Check.<br/>
+Detect Magic is now a Skill Check.<br/>
 
 #### Learning Spells
 
@@ -195,39 +300,31 @@ You must posess a Scroll or Spellbook of the spell in question.
 
 Roll an Int ability check.  If you succeed, you've transcribed the spell to your spellbook.  If you fail and it's from a scroll, the scroll crumbles and is now gone.  If it's a spellbook, you get to try again when you go up a level.  You can try again at the same level with a different source spellbook or scroll.  This takes an adventuring day and has a cost of 0 gold.  You may not adventure while in the process of doing this.
 
-### Research
+### Research or Training
+
+A Magic User of level 9 or higher may research spells or train another Magic User in casting a spell.
 
 This takes 7 adventuring days and 1,000 gold per level of the spell.  You may not adventure while in the process of doing this.
 
-## [Holy Magic]()
+This still requires transcription and the INT Ability Check at it's conclusion.
+
+Your Referee will tell you if there's an available Magic User willing to train you.
+
+## [Cleric Magic]()
 
 # Referee Section
 
-This is a system made out of house rules.  I wholeheartedly recommend you house rule everything anyway.  I feel like it isn't actually simple and SimpleBX is a bit of a misnomer.
+This is an attempt to integrate the revised rules in Dolmenwood into OSE.<br/>
+It has some issues.
 
 ## Death and Dying
 Death and Dying are detrimental to getting some characters high enough level for a higher level campaign.  These are some rules to try and blunt that a bit.
 
 ### Death Saves
-* This RPG includs a death save.  
+* This RPG includs a doom/death/poison save.  
 * You can use this for a death save.  
 * You can take a character that's been dropped below 1 HP and if they make their death save, they don't die.
 * They're at 0 HP and unconcious instead.
-
-### Bandages
-I've added them to the equipment list.  Consider them disposable and easy to ruin.  If the players get don't protect them from dirt and water, they're unusable.
-* During combat, allow characters to use one on another character to save them for death.
-* Characters get a number of rounds equal to their level to be saved from death.
-* This is a second chance to save a character.
-
-### Smelling Salts
-I've added them to the equipment list.  Consider them easy to ruin.  They can be reused until the glass vial they're in gets ruined.  
-* They can wake up an unconcious character, but they don't heal the character.
-* A concious 0HP character is useless.
-    * Can't participate in combat.
-    * Has a -5 to all saves.
-    * Only redeeming quality is that they don't have to be carried.
-    * Moves at half speed.
 
 ## Author Notes
 
